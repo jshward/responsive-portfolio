@@ -1,0 +1,294 @@
+body         {
+
+
+
+				background-image: url(../images/dust_scratches.png);
+
+}
+
+
+h1           {
+	         	background-color: #4aaaa5;
+	         	width: 250px;
+	         	height: 100%;
+				font-size: 2em;
+				text-align: center;
+				font-weight: bold;
+				font-family: 'Alegreya', Georgia, serif;
+				color: white;
+				line-height: 60px;
+				margin-left: 240px;
+				text-shadow: 1px 1px black;
+
+}
+
+h2           {
+
+    
+			    font-size: 1.5em;
+			    margin-top: 0.83em;
+			    margin-bottom: 0.83em;
+			    margin-left: 0;
+			    margin-right: 0;
+			    font-weight: bold;
+				font-family: 'Alegreya', Georgia, serif;
+				color: #4aaaa5;
+
+}
+
+h3 {
+				font-family: 'Alegreya', Georgia, serif;
+				font-size: 1.17em;
+				font-weight: bold;
+				color: #4aaaa5;
+				text-align: center;
+}
+
+a:link {
+				text-decoration: none;
+				font-family: 'Roboto', Helvetica, Arial, sans-serif;
+				color: #777777;
+				line-height: 60px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 75%;
+}
+
+.nav{
+				margin-right: 240px;
+}
+
+.topbar	{
+				display: block;
+				width: 100%;
+				height: 65px;
+				background-color: white;
+				border-bottom: 3px solid lightgrey;
+
+}
+
+.left	{
+
+				float: left;
+}                       
+
+.right	{
+
+				float:right;
+}
+
+
+.clearfix:after {
+			    clear: both;
+			    content: ".";
+			    display: block;
+			    height: 0;
+			    line-height: 0;
+			    visibility: hidden;
+}    
+
+.content	{
+
+				width: 960px;
+				margin: auto;
+
+}                   
+
+.mainbody	 {
+             
+				width: 650px;
+}		
+
+.container	{
+				background-color: white;
+				width: 630px;
+				height: 550px;
+				border: 1px solid black;
+				margin-top: 10px;
+
+
+}
+.portrait	{
+
+				width: 175px;
+				height: 175px;
+				margin: 5px
+
+}                       
+
+.bio-content	{
+			
+				font-family: 'Roboto', Helvetica, Arial, sans-serif;
+				font-size: 16px;	
+				color: #777777;
+				margin: 5px;
+				margin-right: 10px;
+				line-height: 20px;
+				padding: 10px;
+
+
+}                       
+
+.sidebar	{
+				margin-top: 20px;
+				width: 270px;
+			
+
+}                       
+
+.icon_container	{
+				
+				z-index: 3;
+				line-height: 60px;
+				margin: auto;
+				width: 265px;
+				height: 150px;
+			    background-color: white;
+			    border: 1px solid black;
+			    color: #4aaaa5;
+			    padding: 5px;
+			    margin-top: 10px;
+}
+                         
+.icon {
+				
+				z-index: 3
+				margin: 5px;
+			
+				width: 50px;
+
+				height: 50px;	
+
+}                       
+
+
+.icon:first-child	{
+
+						margin-left: 25px;
+}
+
+.icon-align	{
+				margin-top: 5px;
+				display: block;
+			
+}
+
+
+.projects {
+
+	width: 125px;
+	height: 125px;
+}
+
+.portfoliocontent	{
+
+		background-color: white;
+		color: #4aaaa5;
+		font-size: 2em;
+		font-family: 'Alegreya', Georgia, serif;
+		width: 630px;
+		height:560px ;
+		border: 1px solid black;
+		margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+	z-index: 2
+	width: 200px;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+}
+ 
+tr {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+		 
+.label {
+	z-index: 3;
+	position: relative; 
+	bottom: 60px;
+	width: 125px;
+	text-align: center;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.bottom	{
+				border-top: 5px solid #4aaaa5;
+				text-align: center;
+				height: 65px;
+				display: block;		
+				position: fixed;
+			    bottom: 0;    
+				width: 100%;
+			    background-color: #666666;
+			    color: lightgrey;
+			    margin-left: auto;
+			    font-size: 50%;
+			    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+			    line-height: 70px;
+			    font-weight: bold;
+
+
+}                       
+
+@media screen and (min-width: 768px){
+	.right {
+		float: left
+	
+	}
+	.container {
+		width: 760px;
+	}
+	.icon_container {
+		width: 100%;
+	}
+	.sidebar {
+		width: 100%
+	}
+	.mainbody {
+		width: 100%
+	}
+}
+
+@media screen and (min-width: 640px){
+	.right {
+		float: left
+	
+	}
+	.container {
+		width: 630px;
+	}
+	.icon_container {
+		width: 100%;
+	}
+	.sidebar {
+		width: 100%
+	}
+	.mainbody {
+		width: 100%
+	}
+}
+
